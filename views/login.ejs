@@ -1,0 +1,63 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;">
+        
+    <form action="/homepage" method="post">
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: rgb(66, 105, 196);">Login page</h1>
+        <label for="email" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Enter your email:</label>
+        <input type="text" name="email" id="inputemail" onblur="validateForm2">
+        <br>
+        <label for="password" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Enter your Password:</label>
+        <input type="password"name="password" id="inputpassword" onblur="">
+         <br>
+        <button type="submit" onclick="validateForm2()">Login</button>
+    </form>
+    </div>
+    <script src="../controller/valiadation2.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;margin-top: 200px;">
+        
+    <form action="/homepagee" method="post">
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: #ff4444;">Login page</h1>
+        <label for="email" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Enter your email:</label>
+        <br>
+        <input type="text" name="email" id="inputemail" onblur="validateForm2">
+        <br> <br>
+        <label for="password" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Enter your Password:</label>
+        <br>
+        <input type="password" name="password" id="inputpassword" onblur="">
+         <br>
+         <br>
+        <button style=" padding: 10px 20px; background-color: #ff4444; color: white;border-radius: 4px;border: 4px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  margin-left: 60px; " type="submit" onclick="validateForm2()">Login</button>
+        
+        <p style="color: red;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><%=error%></p>
+
+        <script src="../controller/valiadation2.js"></script>
+        <div style="display: flex;align-items: center;justify-content: center; flex-direction: column;">  
+            
+             <p style="color:  #ff4444; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">or</p> 
+        
+            <a href="/"> signup</a>
+            </div>
+
+    </form>
+
+    </div>
+</body>
+</html>
